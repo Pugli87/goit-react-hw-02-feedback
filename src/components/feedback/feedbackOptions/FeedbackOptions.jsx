@@ -59,3 +59,10 @@ export default class FeedbackOptions extends Component {
     );
   }
 }
+
+/*
+FeedbackOptions.propTypes = {
+  options: PropTypes.arrayOf(PropTypes.string).isRequired,
+  onLeaveFeedback: PropTypes.func.isRequired,
+};
+*/
