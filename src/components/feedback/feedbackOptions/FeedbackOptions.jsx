@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-
 import PropTypes from 'prop-types';
 
 const FeddbackCont = styled.div``;
@@ -16,6 +15,7 @@ const FeddbackButton = styled.button`
     margin-right: 5px;
   }
 `;
+
 /*
 const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (

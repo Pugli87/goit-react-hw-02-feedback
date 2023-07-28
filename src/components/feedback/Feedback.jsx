@@ -15,9 +15,9 @@ class Feedback extends Component {
   };
 
   handleFeedback = type => {
-    this.setState(prevState => ({
-      [type]: prevState[type] + 1,
-    }));
+    this.setState({
+      [type]: this.state[type] + 1,
+    });
   };
 
   countTotalFeedback = () => {
